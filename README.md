@@ -33,3 +33,21 @@ public class SleepyStoryTeller extends Thread{
         teller.start();
     }
 ```
+
+## Building
+
+Run:
+
+```
+gcc 01.c -pthread -o 01.exe
+```
+
+Tests done using the ```gcc``` compiler in an Unix-like system (Raspbian GNU/Linux 8, "jessie").
+
+## Running
+
+Just run:
+
+```
+./01.exe
+```
